@@ -93,21 +93,84 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="components\html5up-strata\assets\css\font-awesome.min.css" />
+    <Content Include="components\html5up-strata\assets\css\ie8.css" />
+    <Content Include="components\html5up-strata\assets\css\images\overlay.png" />
+    <Content Include="components\html5up-strata\assets\css\main.css" />
+    <Content Include="components\html5up-strata\assets\fonts\fontawesome-webfont.svg" />
+    <Content Include="components\html5up-strata\assets\js\ie\backgroundsize.min.htc" />
+    <Content Include="components\html5up-strata\assets\js\ie\html5shiv.js" />
+    <Content Include="components\html5up-strata\assets\js\ie\PIE.htc" />
+    <Content Include="components\html5up-strata\assets\js\ie\respond.min.js" />
+    <Content Include="components\html5up-strata\assets\js\jquery.min.js" />
+    <Content Include="components\html5up-strata\assets\js\jquery.poptrox.min.js" />
+    <Content Include="components\html5up-strata\assets\js\main.js" />
+    <Content Include="components\html5up-strata\assets\js\skel.min.js" />
+    <Content Include="components\html5up-strata\assets\js\util.js" />
+    <Content Include="components\html5up-strata\images\avatar.jpg" />
+    <Content Include="components\html5up-strata\images\bg.jpg" />
+    <Content Include="components\html5up-strata\images\fulls\01.jpg" />
+    <Content Include="components\html5up-strata\images\fulls\02.jpg" />
+    <Content Include="components\html5up-strata\images\fulls\03.jpg" />
+    <Content Include="components\html5up-strata\images\fulls\04.jpg" />
+    <Content Include="components\html5up-strata\images\fulls\05.jpg" />
+    <Content Include="components\html5up-strata\images\fulls\06.jpg" />
+    <Content Include="components\html5up-strata\images\thumbs\01.jpg" />
+    <Content Include="components\html5up-strata\images\thumbs\02.jpg" />
+    <Content Include="components\html5up-strata\images\thumbs\03.jpg" />
+    <Content Include="components\html5up-strata\images\thumbs\04.jpg" />
+    <Content Include="components\html5up-strata\images\thumbs\05.jpg" />
+    <Content Include="components\html5up-strata\images\thumbs\06.jpg" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\Site.css" />
+    <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
+    <Content Include="Images\ds.png" />
+    <Content Include="Images\photo 1.JPG" />
+    <Content Include="Images\photo 2.JPG" />
     <Content Include="index.html" />
+    <Content Include="Scripts\bootstrap.js" />
+    <Content Include="Scripts\bootstrap.min.js" />
+    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\_BaseController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Models\Home\IndexModel.cs" />
+    <Compile Include="Models\_BaseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\web.config" />
     <Content Include="packages.config" />
+    <Content Include="components\html5up-strata\assets\fonts\fontawesome-webfont.eot" />
+    <Content Include="components\html5up-strata\assets\fonts\fontawesome-webfont.ttf" />
+    <Content Include="components\html5up-strata\assets\fonts\fontawesome-webfont.woff" />
+    <Content Include="components\html5up-strata\assets\fonts\fontawesome-webfont.woff2" />
+    <Content Include="components\html5up-strata\assets\fonts\FontAwesome.otf" />
+    <Content Include="components\html5up-strata\assets\sass\ie8.scss" />
+    <Content Include="components\html5up-strata\assets\sass\libs\_functions.scss" />
+    <Content Include="components\html5up-strata\assets\sass\libs\_mixins.scss" />
+    <Content Include="components\html5up-strata\assets\sass\libs\_skel.scss" />
+    <Content Include="components\html5up-strata\assets\sass\libs\_vars.scss" />
+    <Content Include="components\html5up-strata\assets\sass\main.scss" />
+    <Content Include="Views\_BaseLayout.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -117,8 +180,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Controllers\" />
-    <Folder Include="Models\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
