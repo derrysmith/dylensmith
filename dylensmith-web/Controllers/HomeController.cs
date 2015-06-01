@@ -33,7 +33,7 @@
 			var client = new System.Net.Mail.SmtpClient();
 			var message = new System.Net.Mail.MailMessage();
 			message.From = new System.Net.Mail.MailAddress("website@dylensmith.com");
-			message.To.Add("derrysmith@gmail.com");
+			message.To.Add("inquiries@dylensmith.com");
 			message.Subject = "testing from HomeController";
 			message.Body = "this is a test message";
 			message.IsBodyHtml = false;
